@@ -1,0 +1,4 @@
+deployment/** -text
+models/clip-vit-base-patch16/** -text
+models/clip-vit-base-patch16/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+deployment/*.pt filter=lfs diff=lfs merge=lfs -text

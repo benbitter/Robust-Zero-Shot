@@ -1,0 +1,219 @@
+{
+  "taxonomy_id": "bf3f412b5cdf5d10d9ed0c6d96be7a7d2eec7f092cccb2d764f4053def0d5585",
+  "backbone": {
+    "config.json": "eaf1c9089a8553c913d27ea66407f8bfc2be9989c80c9f331ddb3d63d4c5e8ad",
+    "merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+    "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+    "pytorch_model.bin": "ec89c7b09c749a60aae3c9cd910516f24b58214a7df060b48962d14c469cfbf0",
+    "special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf",
+    "tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+    "tokenizer_config.json": "3f74b6a4d97fee70b3b96921a687fc5e3f2fb583f5f81e7c178c0c22281beade",
+    "vocab.json": "3f0c4f7d2086b61b38487075278ea9ed04edb53a03cbb045b86c27190fa8fb69"
+  },
+  "dimension": 512,
+  "simple_prompts": [
+    [
+      "A photo of airplane."
+    ],
+    [
+      "A photo of airport."
+    ],
+    [
+      "A photo of beach."
+    ],
+    [
+      "A photo of bridge."
+    ],
+    [
+      "A photo of circular farmland."
+    ],
+    [
+      "A photo of commercial area."
+    ],
+    [
+      "A photo of dense residential."
+    ],
+    [
+      "A photo of desert."
+    ],
+    [
+      "A photo of forest."
+    ],
+    [
+      "A photo of freeway."
+    ],
+    [
+      "A photo of harbor."
+    ],
+    [
+      "A photo of industrial area."
+    ],
+    [
+      "A photo of lake."
+    ],
+    [
+      "A photo of mountain."
+    ],
+    [
+      "A photo of parking lot."
+    ],
+    [
+      "A photo of railway."
+    ],
+    [
+      "A photo of rectangular farmland."
+    ],
+    [
+      "A photo of river."
+    ],
+    [
+      "A photo of runway."
+    ],
+    [
+      "A photo of wetland."
+    ]
+  ],
+  "prompts": [
+    [
+      "An aerial satellite image of airplane.",
+      "An overhead view showing aircraft parked on the ground.",
+      "A remote sensing scene with aircraft parked on the ground.",
+      "A satellite photograph showing aircraft parked on the ground.",
+      "An aerial view of airplane from above."
+    ],
+    [
+      "An aerial satellite image of airport.",
+      "An overhead view showing airport runways, taxiways and terminals.",
+      "A remote sensing scene with airport runways, taxiways and terminals.",
+      "A satellite photograph showing airport runways, taxiways and terminals.",
+      "An aerial view of airport from above."
+    ],
+    [
+      "An aerial satellite image of beach.",
+      "An overhead view showing a sandy beach beside water.",
+      "A remote sensing scene with a sandy beach beside water.",
+      "A satellite photograph showing a sandy beach beside water.",
+      "An aerial view of beach from above."
+    ],
+    [
+      "An aerial satellite image of bridge.",
+      "An overhead view showing a bridge spanning a river or road.",
+      "A remote sensing scene with a bridge spanning a river or road.",
+      "A satellite photograph showing a bridge spanning a river or road.",
+      "An aerial view of bridge from above."
+    ],
+    [
+      "An aerial satellite image of circular farmland.",
+      "An overhead view showing circular crop fields formed by center-pivot irrigation.",
+      "A remote sensing scene with circular crop fields formed by center-pivot irrigation.",
+      "A satellite photograph showing circular crop fields formed by center-pivot irrigation.",
+      "An aerial view of circular farmland from above."
+    ],
+    [
+      "An aerial satellite image of commercial area.",
+      "An overhead view showing commercial buildings, shops and paved lots.",
+      "A remote sensing scene with commercial buildings, shops and paved lots.",
+      "A satellite photograph showing commercial buildings, shops and paved lots.",
+      "An aerial view of commercial area from above."
+    ],
+    [
+      "An aerial satellite image of dense residential.",
+      "An overhead view showing closely packed residential buildings.",
+      "A remote sensing scene with closely packed residential buildings.",
+      "A satellite photograph showing closely packed residential buildings.",
+      "An aerial view of dense residential from above."
+    ],
+    [
+      "An aerial satellite image of desert.",
+      "An overhead view showing barren sandy or rocky desert terrain.",
+      "A remote sensing scene with barren sandy or rocky desert terrain.",
+      "A satellite photograph showing barren sandy or rocky desert terrain.",
+      "An aerial view of desert from above."
+    ],
+    [
+      "An aerial satellite image of forest.",
+      "An overhead view showing continuous tree-covered forest.",
+      "A remote sensing scene with continuous tree-covered forest.",
+      "A satellite photograph showing continuous tree-covered forest.",
+      "An aerial view of forest from above."
+    ],
+    [
+      "An aerial satellite image of freeway.",
+      "An overhead view showing a broad multi-lane freeway.",
+      "A remote sensing scene with a broad multi-lane freeway.",
+      "A satellite photograph showing a broad multi-lane freeway.",
+      "An aerial view of freeway from above."
+    ],
+    [
+      "An aerial satellite image of harbor.",
+      "An overhead view showing a harbor with docks and sheltered water.",
+      "A remote sensing scene with a harbor with docks and sheltered water.",
+      "A satellite photograph showing a harbor with docks and sheltered water.",
+      "An aerial view of harbor from above."
+    ],
+    [
+      "An aerial satellite image of industrial area.",
+      "An overhead view showing factory buildings and industrial infrastructure.",
+      "A remote sensing scene with factory buildings and industrial infrastructure.",
+      "A satellite photograph showing factory buildings and industrial infrastructure.",
+      "An aerial view of industrial area from above."
+    ],
+    [
+      "An aerial satellite image of lake.",
+      "An overhead view showing an inland lake.",
+      "A remote sensing scene with an inland lake.",
+      "A satellite photograph showing an inland lake.",
+      "An aerial view of lake from above."
+    ],
+    [
+      "An aerial satellite image of mountain.",
+      "An overhead view showing mountain ridges and elevated rocky terrain.",
+      "A remote sensing scene with mountain ridges and elevated rocky terrain.",
+      "A satellite photograph showing mountain ridges and elevated rocky terrain.",
+      "An aerial view of mountain from above."
+    ],
+    [
+      "An aerial satellite image of parking lot.",
+      "An overhead view showing a paved parking lot with marked spaces.",
+      "A remote sensing scene with a paved parking lot with marked spaces.",
+      "A satellite photograph showing a paved parking lot with marked spaces.",
+      "An aerial view of parking lot from above."
+    ],
+    [
+      "An aerial satellite image of railway.",
+      "An overhead view showing parallel railway tracks.",
+      "A remote sensing scene with parallel railway tracks.",
+      "A satellite photograph showing parallel railway tracks.",
+      "An aerial view of railway from above."
+    ],
+    [
+      "An aerial satellite image of rectangular farmland.",
+      "An overhead view showing rectangular agricultural fields.",
+      "A remote sensing scene with rectangular agricultural fields.",
+      "A satellite photograph showing rectangular agricultural fields.",
+      "An aerial view of rectangular farmland from above."
+    ],
+    [
+      "An aerial satellite image of river.",
+      "An overhead view showing a flowing river channel.",
+      "A remote sensing scene with a flowing river channel.",
+      "A satellite photograph showing a flowing river channel.",
+      "An aerial view of river from above."
+    ],
+    [
+      "An aerial satellite image of runway.",
+      "An overhead view showing a long aircraft runway.",
+      "A remote sensing scene with a long aircraft runway.",
+      "A satellite photograph showing a long aircraft runway.",
+      "An aerial view of runway from above."
+    ],
+    [
+      "An aerial satellite image of wetland.",
+      "An overhead view showing marshy wetlands and shallow water.",
+      "A remote sensing scene with marshy wetlands and shallow water.",
+      "A satellite photograph showing marshy wetlands and shallow water.",
+      "An aerial view of wetland from above."
+    ]
+  ],
+  "normalization": "normalize each, mean, normalize"
+}

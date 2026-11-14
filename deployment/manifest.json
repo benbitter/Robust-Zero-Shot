@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "selection_id": "f7b2f33a1a4fcc1ffe3ba68728a6497fd101f7e06170e9a870886c198f94e141",
+  "taxonomy_id": "bf3f412b5cdf5d10d9ed0c6d96be7a7d2eec7f092cccb2d764f4053def0d5585",
+  "recipe": {
+    "name": "ensemble_0.25_ttaTrue",
+    "tta": true,
+    "weights": {
+      "m3": 0.25,
+      "m4": 0.75
+    }
+  },
+  "checkpoints": {
+    "m3": {
+      "sha256": "41737365889716c896fad66682a4a92847aa83e1d4190b0179b7a33407188515",
+      "epoch": 14,
+      "config_id": "f2a447175d10d0633454239d4da83ea88d1d8c3870daeb6af706ad7150f8d5d2"
+    },
+    "m4": {
+      "sha256": "f51cbf5e7e72a16ea6690d1ac2814035c2e11975964bb15f791110a3cfc65af6",
+      "epoch": 48,
+      "config_id": "791a1420e3c5cceb1b7928c9ca6fa3e18fc5c84cb3d01acfb02767861194d68d"
+    }
+  },
+  "backbone": {
+    "config.json": "eaf1c9089a8553c913d27ea66407f8bfc2be9989c80c9f331ddb3d63d4c5e8ad",
+    "merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+    "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+    "pytorch_model.bin": "ec89c7b09c749a60aae3c9cd910516f24b58214a7df060b48962d14c469cfbf0",
+    "special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf",
+    "tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+    "tokenizer_config.json": "3f74b6a4d97fee70b3b96921a687fc5e3f2fb583f5f81e7c178c0c22281beade",
+    "vocab.json": "3f0c4f7d2086b61b38487075278ea9ed04edb53a03cbb045b86c27190fa8fb69"
+  },
+  "files": {
+    "deployment/final_summary.json": "2b2090141bb709de2376995c3d99c4eac78a3f99d26567d37c92c968cc837d71",
+    "deployment/m3.pt": "41737365889716c896fad66682a4a92847aa83e1d4190b0179b7a33407188515",
+    "deployment/m4.pt": "f51cbf5e7e72a16ea6690d1ac2814035c2e11975964bb15f791110a3cfc65af6",
+    "deployment/prompts.json": "49626ecbb697a6fe85c3528964749734984759733218d589ce0041a55f504957",
+    "deployment/prototypes.npz": "ddb6899c9cb03bfb946456267cc33d63cee7f0fe2fc99bb0de65a264d9672d04",
+    "deployment/research.json": "bff67f62b41a100b90df8ecbe4db6edef8ae84a78665179805f56b4472899112",
+    "deployment/taxonomy.json": "05ad09ee97717eafaa0056c3544fb11f56e702bed90d2ed5b2d9851fb292ca8a",
+    "deployment/plots/clean_accuracy.png": "279c9d70110708f29aa485cfa3f210c43d8725d8d954c37a7291f20a2a64fc7d",
+    "deployment/plots/clean_vs_robustness.png": "e30f6731789a8ebd046960328f090928de49a884f24f45c8fdbd8b9ed7aeb222",
+    "deployment/plots/corruption_heatmap.png": "e04be04aa17ab6abcc5511b03435b00293d2ed762610ed87dc1e63a92529dfdb",
+    "deployment/plots/m0_confusion.png": "babb10c408b664b19848728e4e510ff6d8d686f8c82cea547b790061f215a5ea",
+    "deployment/plots/m1_confusion.png": "442f94d7a614994926ec51e4bf71055346c589ce88af0e72ba5782ae345d19c7",
+    "deployment/plots/m2_confusion.png": "ce30c4f394a9332ef42d19700a6af632146a8746bddd551a8d69cecdb26e2c31",
+    "deployment/plots/m3_confusion.png": "3fa3c6a5dbac40e11dea956c084e5b2b30728c5529fc098e72ac67a42ef76ac8",
+    "deployment/plots/m4_confusion.png": "d50ce3393851b99f4f3c37cf475193c9ccf9b610a988dc905817f6b6e4d3ee92",
+    "deployment/plots/m5_confusion.png": "a9be9e84fee0715b4e845184e7c95c413861e471ab07f3ef850c762b8787e698",
+    "deployment/plots/macro_f1.png": "9d673c3a3e239981d6bed0a545a1127ac69ce683ff55f330ec1bcaf7ca007ec0",
+    "deployment/plots/mean_corruption_accuracy.png": "088df16b5a0e051b1546232445b84a66fa5fe6008b1af4ca3a4b2f90bbae5950",
+    "deployment/plots/per_class_accuracy.png": "abfc8914fe3cfad55c1a35fc08b4e6ce85c52662dbde7d7df8a9f49fe0aec4b7",
+    "deployment/plots/severity_curves.png": "3059ab4fea1bbed4ce84755bb5abea8974e1e4156e2aa3661f552b0dd8903ff5",
+    "deployment/plots/source_accuracy.png": "6b1c6c90eedf3887cd4567cb1ea73c91df505407ffade3479eb113981f8af7ef",
+    "deployment/plots/top_confusions.png": "235131716e839409f2d32f7e147d81e1c5da8709a2c21837cd307381e3084bfc",
+    "models/clip-vit-base-patch16/config.json": "eaf1c9089a8553c913d27ea66407f8bfc2be9989c80c9f331ddb3d63d4c5e8ad",
+    "models/clip-vit-base-patch16/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+    "models/clip-vit-base-patch16/preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+    "models/clip-vit-base-patch16/pytorch_model.bin": "ec89c7b09c749a60aae3c9cd910516f24b58214a7df060b48962d14c469cfbf0",
+    "models/clip-vit-base-patch16/special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf",
+    "models/clip-vit-base-patch16/tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+    "models/clip-vit-base-patch16/tokenizer_config.json": "3f74b6a4d97fee70b3b96921a687fc5e3f2fb583f5f81e7c178c0c22281beade",
+    "models/clip-vit-base-patch16/vocab.json": "3f0c4f7d2086b61b38487075278ea9ed04edb53a03cbb045b86c27190fa8fb69"
+  }
+}

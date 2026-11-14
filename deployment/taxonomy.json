@@ -1,0 +1,329 @@
+{
+  "version": "terraclip20-v1",
+  "source_mapping": "https://huggingface.co/datasets/yangjiahao-x/NWPU-RESISC45/blob/966bc7b/README.md",
+  "source_parquet_sha256": "66b7da94f92c3435e3c6f8230f17efe8961b6f6b53dadfada62167da4f683e29",
+  "classes": [
+    {
+      "id": 0,
+      "name": "airplane",
+      "description": "aircraft parked on the ground",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of airplane.",
+      "prompts": [
+        "An aerial satellite image of airplane.",
+        "An overhead view showing aircraft parked on the ground.",
+        "A remote sensing scene with aircraft parked on the ground.",
+        "A satellite photograph showing aircraft parked on the ground.",
+        "An aerial view of airplane from above."
+      ]
+    },
+    {
+      "id": 1,
+      "name": "airport",
+      "description": "airport runways, taxiways and terminals",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of airport.",
+      "prompts": [
+        "An aerial satellite image of airport.",
+        "An overhead view showing airport runways, taxiways and terminals.",
+        "A remote sensing scene with airport runways, taxiways and terminals.",
+        "A satellite photograph showing airport runways, taxiways and terminals.",
+        "An aerial view of airport from above."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "beach",
+      "description": "a sandy beach beside water",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of beach.",
+      "prompts": [
+        "An aerial satellite image of beach.",
+        "An overhead view showing a sandy beach beside water.",
+        "A remote sensing scene with a sandy beach beside water.",
+        "A satellite photograph showing a sandy beach beside water.",
+        "An aerial view of beach from above."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "bridge",
+      "description": "a bridge spanning a river or road",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of bridge.",
+      "prompts": [
+        "An aerial satellite image of bridge.",
+        "An overhead view showing a bridge spanning a river or road.",
+        "A remote sensing scene with a bridge spanning a river or road.",
+        "A satellite photograph showing a bridge spanning a river or road.",
+        "An aerial view of bridge from above."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "circular_farmland",
+      "description": "circular crop fields formed by center-pivot irrigation",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of circular farmland.",
+      "prompts": [
+        "An aerial satellite image of circular farmland.",
+        "An overhead view showing circular crop fields formed by center-pivot irrigation.",
+        "A remote sensing scene with circular crop fields formed by center-pivot irrigation.",
+        "A satellite photograph showing circular crop fields formed by center-pivot irrigation.",
+        "An aerial view of circular farmland from above."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "commercial_area",
+      "description": "commercial buildings, shops and paved lots",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of commercial area.",
+      "prompts": [
+        "An aerial satellite image of commercial area.",
+        "An overhead view showing commercial buildings, shops and paved lots.",
+        "A remote sensing scene with commercial buildings, shops and paved lots.",
+        "A satellite photograph showing commercial buildings, shops and paved lots.",
+        "An aerial view of commercial area from above."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "dense_residential",
+      "description": "closely packed residential buildings",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of dense residential.",
+      "prompts": [
+        "An aerial satellite image of dense residential.",
+        "An overhead view showing closely packed residential buildings.",
+        "A remote sensing scene with closely packed residential buildings.",
+        "A satellite photograph showing closely packed residential buildings.",
+        "An aerial view of dense residential from above."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "desert",
+      "description": "barren sandy or rocky desert terrain",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of desert.",
+      "prompts": [
+        "An aerial satellite image of desert.",
+        "An overhead view showing barren sandy or rocky desert terrain.",
+        "A remote sensing scene with barren sandy or rocky desert terrain.",
+        "A satellite photograph showing barren sandy or rocky desert terrain.",
+        "An aerial view of desert from above."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "forest",
+      "description": "continuous tree-covered forest",
+      "sources": [
+        "nwpu",
+        "eurosat"
+      ],
+      "simple_prompt": "A photo of forest.",
+      "prompts": [
+        "An aerial satellite image of forest.",
+        "An overhead view showing continuous tree-covered forest.",
+        "A remote sensing scene with continuous tree-covered forest.",
+        "A satellite photograph showing continuous tree-covered forest.",
+        "An aerial view of forest from above."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "freeway",
+      "description": "a broad multi-lane freeway",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of freeway.",
+      "prompts": [
+        "An aerial satellite image of freeway.",
+        "An overhead view showing a broad multi-lane freeway.",
+        "A remote sensing scene with a broad multi-lane freeway.",
+        "A satellite photograph showing a broad multi-lane freeway.",
+        "An aerial view of freeway from above."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "harbor",
+      "description": "a harbor with docks and sheltered water",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of harbor.",
+      "prompts": [
+        "An aerial satellite image of harbor.",
+        "An overhead view showing a harbor with docks and sheltered water.",
+        "A remote sensing scene with a harbor with docks and sheltered water.",
+        "A satellite photograph showing a harbor with docks and sheltered water.",
+        "An aerial view of harbor from above."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "industrial_area",
+      "description": "factory buildings and industrial infrastructure",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of industrial area.",
+      "prompts": [
+        "An aerial satellite image of industrial area.",
+        "An overhead view showing factory buildings and industrial infrastructure.",
+        "A remote sensing scene with factory buildings and industrial infrastructure.",
+        "A satellite photograph showing factory buildings and industrial infrastructure.",
+        "An aerial view of industrial area from above."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "lake",
+      "description": "an inland lake",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of lake.",
+      "prompts": [
+        "An aerial satellite image of lake.",
+        "An overhead view showing an inland lake.",
+        "A remote sensing scene with an inland lake.",
+        "A satellite photograph showing an inland lake.",
+        "An aerial view of lake from above."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "mountain",
+      "description": "mountain ridges and elevated rocky terrain",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of mountain.",
+      "prompts": [
+        "An aerial satellite image of mountain.",
+        "An overhead view showing mountain ridges and elevated rocky terrain.",
+        "A remote sensing scene with mountain ridges and elevated rocky terrain.",
+        "A satellite photograph showing mountain ridges and elevated rocky terrain.",
+        "An aerial view of mountain from above."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "parking_lot",
+      "description": "a paved parking lot with marked spaces",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of parking lot.",
+      "prompts": [
+        "An aerial satellite image of parking lot.",
+        "An overhead view showing a paved parking lot with marked spaces.",
+        "A remote sensing scene with a paved parking lot with marked spaces.",
+        "A satellite photograph showing a paved parking lot with marked spaces.",
+        "An aerial view of parking lot from above."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "railway",
+      "description": "parallel railway tracks",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of railway.",
+      "prompts": [
+        "An aerial satellite image of railway.",
+        "An overhead view showing parallel railway tracks.",
+        "A remote sensing scene with parallel railway tracks.",
+        "A satellite photograph showing parallel railway tracks.",
+        "An aerial view of railway from above."
+      ]
+    },
+    {
+      "id": 16,
+      "name": "rectangular_farmland",
+      "description": "rectangular agricultural fields",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of rectangular farmland.",
+      "prompts": [
+        "An aerial satellite image of rectangular farmland.",
+        "An overhead view showing rectangular agricultural fields.",
+        "A remote sensing scene with rectangular agricultural fields.",
+        "A satellite photograph showing rectangular agricultural fields.",
+        "An aerial view of rectangular farmland from above."
+      ]
+    },
+    {
+      "id": 17,
+      "name": "river",
+      "description": "a flowing river channel",
+      "sources": [
+        "nwpu",
+        "eurosat"
+      ],
+      "simple_prompt": "A photo of river.",
+      "prompts": [
+        "An aerial satellite image of river.",
+        "An overhead view showing a flowing river channel.",
+        "A remote sensing scene with a flowing river channel.",
+        "A satellite photograph showing a flowing river channel.",
+        "An aerial view of river from above."
+      ]
+    },
+    {
+      "id": 18,
+      "name": "runway",
+      "description": "a long aircraft runway",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of runway.",
+      "prompts": [
+        "An aerial satellite image of runway.",
+        "An overhead view showing a long aircraft runway.",
+        "A remote sensing scene with a long aircraft runway.",
+        "A satellite photograph showing a long aircraft runway.",
+        "An aerial view of runway from above."
+      ]
+    },
+    {
+      "id": 19,
+      "name": "wetland",
+      "description": "marshy wetlands and shallow water",
+      "sources": [
+        "nwpu"
+      ],
+      "simple_prompt": "A photo of wetland.",
+      "prompts": [
+        "An aerial satellite image of wetland.",
+        "An overhead view showing marshy wetlands and shallow water.",
+        "A remote sensing scene with marshy wetlands and shallow water.",
+        "A satellite photograph showing marshy wetlands and shallow water.",
+        "An aerial view of wetland from above."
+      ]
+    }
+  ]
+}
